@@ -7,4 +7,7 @@ class Detention
     @students = students
   end
   
+  def add_student(name)
+    @students << name
+  end
 end
