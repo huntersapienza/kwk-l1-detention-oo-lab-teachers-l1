@@ -5,4 +5,5 @@ class Detention
   def initialize(activity = "collective punishment")
     @activity = activity
   end
+  
 end
